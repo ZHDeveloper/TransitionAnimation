@@ -15,6 +15,14 @@
 		53D5D3C71CFEB6BA00F9C30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D5D3C51CFEB6BA00F9C30E /* LaunchScreen.storyboard */; };
 		53D5D3D21CFEB6BA00F9C30E /* iOSTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D3D11CFEB6BA00F9C30E /* iOSTransitionTests.m */; };
 		53D5D3DD1CFEB6BA00F9C30E /* iOSTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D3DC1CFEB6BA00F9C30E /* iOSTransitionUITests.m */; };
+		53D5D3FA1CFED23200F9C30E /* PopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D3F51CFED23100F9C30E /* PopAnimator.m */; };
+		53D5D3FB1CFED23200F9C30E /* PopOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D3F71CFED23100F9C30E /* PopOneViewController.m */; };
+		53D5D3FC1CFED23200F9C30E /* PopTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D3F91CFED23200F9C30E /* PopTwoViewController.m */; };
+		53D5D4001CFED43400F9C30E /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D3FF1CFED43400F9C30E /* PresentViewController.m */; };
+		53D5D4031CFED44A00F9C30E /* DismissViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D4021CFED44A00F9C30E /* DismissViewController.m */; };
+		53D5D4051CFEDBD600F9C30E /* mojiezuo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53D5D4041CFEDBD600F9C30E /* mojiezuo.jpg */; };
+		53D5D4081CFEDEA100F9C30E /* PresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D4071CFEDEA100F9C30E /* PresentAnimator.m */; };
+		53D5D40B1CFEEC2300F9C30E /* DismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D40A1CFEEC2200F9C30E /* DismissAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,21 @@
 		53D5D3D81CFEB6BA00F9C30E /* iOSTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D5D3DC1CFEB6BA00F9C30E /* iOSTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTransitionUITests.m; sourceTree = "<group>"; };
 		53D5D3DE1CFEB6BA00F9C30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D5D3F41CFED23100F9C30E /* PopAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimator.h; sourceTree = "<group>"; };
+		53D5D3F51CFED23100F9C30E /* PopAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimator.m; sourceTree = "<group>"; };
+		53D5D3F61CFED23100F9C30E /* PopOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOneViewController.h; sourceTree = "<group>"; };
+		53D5D3F71CFED23100F9C30E /* PopOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOneViewController.m; sourceTree = "<group>"; };
+		53D5D3F81CFED23100F9C30E /* PopTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTwoViewController.h; sourceTree = "<group>"; };
+		53D5D3F91CFED23200F9C30E /* PopTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTwoViewController.m; sourceTree = "<group>"; };
+		53D5D3FE1CFED43400F9C30E /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		53D5D3FF1CFED43400F9C30E /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		53D5D4011CFED44A00F9C30E /* DismissViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissViewController.h; sourceTree = "<group>"; };
+		53D5D4021CFED44A00F9C30E /* DismissViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissViewController.m; sourceTree = "<group>"; };
+		53D5D4041CFEDBD600F9C30E /* mojiezuo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mojiezuo.jpg; sourceTree = "<group>"; };
+		53D5D4061CFEDEA100F9C30E /* PresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentAnimator.h; sourceTree = "<group>"; };
+		53D5D4071CFEDEA100F9C30E /* PresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentAnimator.m; sourceTree = "<group>"; };
+		53D5D4091CFEEC2200F9C30E /* DismissAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissAnimator.h; sourceTree = "<group>"; };
+		53D5D40A1CFEEC2200F9C30E /* DismissAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +124,14 @@
 		53D5D3B61CFEB6BA00F9C30E /* iOSTransition */ = {
 			isa = PBXGroup;
 			children = (
+				53D5D3FD1CFED42200F9C30E /* PresentDemo */,
+				53D5D3F31CFED23100F9C30E /* POPDemo */,
 				53D5D3BA1CFEB6BA00F9C30E /* AppDelegate.h */,
 				53D5D3BB1CFEB6BA00F9C30E /* AppDelegate.m */,
 				53D5D3BD1CFEB6BA00F9C30E /* ViewController.h */,
 				53D5D3BE1CFEB6BA00F9C30E /* ViewController.m */,
 				53D5D3C01CFEB6BA00F9C30E /* Main.storyboard */,
+				53D5D4041CFEDBD600F9C30E /* mojiezuo.jpg */,
 				53D5D3C31CFEB6BA00F9C30E /* Assets.xcassets */,
 				53D5D3C51CFEB6BA00F9C30E /* LaunchScreen.storyboard */,
 				53D5D3C81CFEB6BA00F9C30E /* Info.plist */,
@@ -138,6 +164,34 @@
 				53D5D3DE1CFEB6BA00F9C30E /* Info.plist */,
 			);
 			path = iOSTransitionUITests;
+			sourceTree = "<group>";
+		};
+		53D5D3F31CFED23100F9C30E /* POPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				53D5D3F41CFED23100F9C30E /* PopAnimator.h */,
+				53D5D3F51CFED23100F9C30E /* PopAnimator.m */,
+				53D5D3F61CFED23100F9C30E /* PopOneViewController.h */,
+				53D5D3F71CFED23100F9C30E /* PopOneViewController.m */,
+				53D5D3F81CFED23100F9C30E /* PopTwoViewController.h */,
+				53D5D3F91CFED23200F9C30E /* PopTwoViewController.m */,
+			);
+			path = POPDemo;
+			sourceTree = "<group>";
+		};
+		53D5D3FD1CFED42200F9C30E /* PresentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				53D5D3FE1CFED43400F9C30E /* PresentViewController.h */,
+				53D5D3FF1CFED43400F9C30E /* PresentViewController.m */,
+				53D5D4011CFED44A00F9C30E /* DismissViewController.h */,
+				53D5D4021CFED44A00F9C30E /* DismissViewController.m */,
+				53D5D4061CFEDEA100F9C30E /* PresentAnimator.h */,
+				53D5D4071CFEDEA100F9C30E /* PresentAnimator.m */,
+				53D5D4091CFEEC2200F9C30E /* DismissAnimator.h */,
+				53D5D40A1CFEEC2200F9C30E /* DismissAnimator.m */,
+			);
+			path = PresentDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53D5D3C71CFEB6BA00F9C30E /* LaunchScreen.storyboard in Resources */,
+				53D5D4051CFEDBD600F9C30E /* mojiezuo.jpg in Resources */,
 				53D5D3C41CFEB6BA00F9C30E /* Assets.xcassets in Resources */,
 				53D5D3C21CFEB6BA00F9C30E /* Main.storyboard in Resources */,
 			);
@@ -270,9 +325,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D5D3FB1CFED23200F9C30E /* PopOneViewController.m in Sources */,
+				53D5D3FC1CFED23200F9C30E /* PopTwoViewController.m in Sources */,
 				53D5D3BF1CFEB6BA00F9C30E /* ViewController.m in Sources */,
 				53D5D3BC1CFEB6BA00F9C30E /* AppDelegate.m in Sources */,
+				53D5D4001CFED43400F9C30E /* PresentViewController.m in Sources */,
+				53D5D4031CFED44A00F9C30E /* DismissViewController.m in Sources */,
+				53D5D4081CFEDEA100F9C30E /* PresentAnimator.m in Sources */,
+				53D5D3FA1CFED23200F9C30E /* PopAnimator.m in Sources */,
 				53D5D3B91CFEB6BA00F9C30E /* main.m in Sources */,
+				53D5D40B1CFEEC2300F9C30E /* DismissAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
